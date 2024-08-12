@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mavenb.mavenc">
+      <class name="crra.CRRA_Main">
         <methods>
+          <include name="contentadd"/>
           <include name="setup"/>
-          <include name="frontpage_end"/>
+          <include name="contentssearch"/>
         </methods>
-      </class> <!-- mavenb.mavenc -->
+      </class> <!-- crra.CRRA_Main -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
